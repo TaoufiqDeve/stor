@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cor{
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 2px solid;
+    transition:4s;
+    transform-origin: right bottom;
+}
+#don{
+    width: 2px;
+    height: 90px;
+    background-color: black;
+    position: relative;
+    left:100px;
+    top: 10px;
+    transition: 30s;
+
+}
+#cor:hover #don{
+    transform: rotate(360deg);
+}
